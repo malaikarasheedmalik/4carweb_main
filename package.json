@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "postinstall": "npm install --prefix 45carweb-main --ignore-scripts",
-    "dev": "npm --prefix 45carweb-main run dev",
-    "build": "npm --prefix 45carweb-main run build",
-    "start": "npm --prefix 45carweb-main run start",
-    "lint": "npm --prefix 45carweb-main run lint",
-    "typecheck": "npm --prefix 45carweb-main run typecheck"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
