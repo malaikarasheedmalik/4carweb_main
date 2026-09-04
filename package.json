@@ -1,0 +1,13 @@
+{
+  "name": "4carweb-main",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install --prefix 45carweb-main --ignore-scripts",
+    "dev": "npm --prefix 45carweb-main run dev",
+    "build": "npm --prefix 45carweb-main run build",
+    "start": "npm --prefix 45carweb-main run start",
+    "lint": "npm --prefix 45carweb-main run lint",
+    "typecheck": "npm --prefix 45carweb-main run typecheck"
+  }
+}

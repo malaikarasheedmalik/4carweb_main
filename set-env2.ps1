@@ -1,0 +1,5 @@
+$env:ADMIN_EMAIL = "malaika"
+$env:ADMIN_PASSWORD = "malaika1970"
+$env:DATABASE_URL = "postgresql://postgres:password@localhost:5432/fixpoint"
+Write-Host "ADMIN_EMAIL: $env:ADMIN_EMAIL"
+Write-Host "ADMIN_PASSWORD: $env:ADMIN_PASSWORD"
