@@ -1,0 +1,405 @@
+{
+  "business": {
+    "name": "Nexora Talent",
+    "tagline": "Connecting Exceptional Talent with Exceptional Opportunities.",
+    "description": "Nexora Talent is a global recruitment and talent solutions partner. For over 15 years we have connected ambitious professionals with organizations where they can make a lasting impact — across technology, finance, healthcare, engineering and beyond.",
+    "phone": "+1 (212) 555-0190",
+    "phoneHref": "tel:+12125550190",
+    "email": "hello@nexoratalent.com",
+    "emailHref": "mailto:hello@nexoratalent.com",
+    "address": "350 Park Avenue, 22nd Floor, New York, NY 10022",
+    "mapsEmbed": "https://www.google.com/maps?q=350+Park+Avenue,+New+York,+NY+10022&output=embed",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=350+Park+Avenue+New+York+NY+10022",
+    "hours": [
+      { "day": "Mon – Fri", "time": "8:00 AM – 7:00 PM" },
+      { "day": "Saturday", "time": "9:00 AM – 2:00 PM" },
+      { "day": "Sunday", "time": "Closed" }
+    ],
+    "social": {
+      "linkedin": "https://linkedin.com",
+      "twitter": "https://twitter.com",
+      "facebook": "https://facebook.com",
+      "instagram": "https://instagram.com"
+    },
+    "founded": 2010,
+    "stats": [
+      { "label": "Professionals Placed", "value": 10000, "suffix": "+" },
+      { "label": "Hiring Partners", "value": 850, "suffix": "+" },
+      { "label": "Client Retention", "value": 92, "suffix": "%" },
+      { "label": "Years of Expertise", "value": 15, "suffix": "+" }
+    ],
+    "aboutStats": [
+      { "label": "Years", "value": 15, "suffix": "+" },
+      { "label": "Placements", "value": 10000, "suffix": "+" },
+      { "label": "Clients", "value": 850, "suffix": "+" },
+      { "label": "Countries", "value": 30, "suffix": "+" }
+    ]
+  },
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about" },
+    { "label": "Services", "href": "/services" },
+    { "label": "Jobs", "href": "/jobs" },
+    { "label": "Employers", "href": "/employers" },
+    { "label": "Candidates", "href": "/candidates" },
+    { "label": "Industries", "href": "/industries" },
+    { "label": "Resources", "href": "/blog" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "footerLinks": {
+    "Company": [
+      { "label": "About Us", "href": "/about" },
+      { "label": "Our Team", "href": "/team" },
+      { "label": "Success Stories", "href": "/success-stories" },
+      { "label": "Careers", "href": "/candidates" }
+    ],
+    "Services": [
+      { "label": "Executive Search", "href": "/services#executive-search" },
+      { "label": "Permanent Recruitment", "href": "/services#permanent-recruitment" },
+      { "label": "Contract Staffing", "href": "/services#contract-staffing" },
+      { "label": "Talent Consulting", "href": "/services#talent-consulting" }
+    ],
+    "Candidates": [
+      { "label": "Find a Job", "href": "/jobs" },
+      { "label": "Upload Resume", "href": "/candidates" },
+      { "label": "Career Advice", "href": "/blog" },
+      { "label": "Interview Tips", "href": "/blog" }
+    ],
+    "Employers": [
+      { "label": "Hire Talent", "href": "/employers" },
+      { "label": "Submit a Vacancy", "href": "/employers" },
+      { "label": "Industries", "href": "/industries" },
+      { "label": "Contact", "href": "/contact" }
+    ]
+  },
+  "images": {
+    "hero": "https://images.pexels.com/photos/7433853/pexels-photo-7433853.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroAlt": "Business professionals in a strategic meeting in a modern office with natural light",
+    "aboutMain": "https://images.pexels.com/photos/9034230/pexels-photo-9034230.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "aboutMainAlt": "Diverse group of professionals in a boardroom meeting",
+    "aboutStory": "https://images.pexels.com/photos/5511098/pexels-photo-5511098.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "aboutStoryAlt": "Spacious modern office interior with contemporary furniture",
+    "office": "https://images.pexels.com/photos/5444186/pexels-photo-5444186.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "officeAlt": "Modern open-plan office interior with desks and natural light",
+    "ctaBg": "https://images.pexels.com/photos/36733313/pexels-photo-36733313.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "ctaAlt": "Group of professionals discussing charts during a business meeting",
+    "candidates": "https://images.pexels.com/photos/1181563/pexels-photo-1181563.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "candidatesAlt": "Two professionals having a business discussion with a laptop",
+    "employers": "https://images.pexels.com/photos/33175650/pexels-photo-33175650.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "employersAlt": "Two business professionals shaking hands symbolizing partnership",
+    "contact": "https://images.pexels.com/photos/36712839/pexels-photo-36712839.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "contactAlt": "Two professionals shaking hands outside a modern office building"
+  },
+  "partners": [
+    "Vertex Capital", "Lumen Health", "Quantum Labs", "Northwind Group",
+    "Apex Systems", "Cedar Financial", "Helix Tech", "Orbit Logistics",
+    "Meridian Retail", "Pinnacle Engineering"
+  ],
+  "services": [
+    {
+      "id": "executive-search",
+      "title": "Executive Search",
+      "short": "Finding senior-level and executive talent that shapes the direction of your business.",
+      "description": "We partner with boards and leadership teams to identify, assess and recruit C-suite and senior executives. Our retained search process combines deep market mapping, behavioural interviewing and psychometric assessment to deliver leaders who fit your culture and drive results.",
+      "icon": "Crown",
+      "features": ["C-suite & VP-level search", "Market mapping & competitor analysis", "Behavioural & psychometric assessment", "Confidential executive outreach", "Onboarding support"]
+    },
+    {
+      "id": "permanent-recruitment",
+      "title": "Permanent Recruitment",
+      "short": "Connecting companies with highly qualified long-term employees.",
+      "description": "From specialist individual hires to volume recruitment campaigns, we source permanent talent across every function and level. Our consultants are sector specialists who understand the skills, certifications and cultural attributes that matter in your industry.",
+      "icon": "UserCheck",
+      "features": ["Dedicated sector specialists", "Multi-channel sourcing", "Structured screening & shortlisting", "Reference & background checks", "90-day placement guarantee"]
+    },
+    {
+      "id": "contract-staffing",
+      "title": "Contract Staffing",
+      "short": "Flexible staffing solutions for changing business needs.",
+      "description": "Scale your workforce up or down without the overhead. We provide vetted contract and interim professionals for project work, maternity cover, seasonal peaks and specialist assignments — often within 48 hours of a request.",
+      "icon": "CalendarClock",
+      "features": ["48-hour deployment", "Pre-vetted talent pool", "Payroll & compliance handled", "Project & interim roles", "Convert-to-perm option"]
+    },
+    {
+      "id": "talent-consulting",
+      "title": "Talent Consulting",
+      "short": "Strategic workforce planning and recruitment consulting.",
+      "description": "We help you build a talent strategy that supports your business goals — from workforce planning and employer value proposition design to recruitment process optimisation and diversity & inclusion strategy.",
+      "icon": "Lightbulb",
+      "features": ["Workforce planning", "Employer value proposition", "Recruitment process audit", "Diversity & inclusion strategy", "Talent market intelligence"]
+    },
+    {
+      "id": "employer-branding",
+      "title": "Employer Branding",
+      "short": "Helping companies attract and retain top talent.",
+      "description": "A strong employer brand reduces cost-per-hire and improves retention. We help you articulate what makes your organisation different, then communicate it consistently across careers sites, social channels and candidate touchpoints.",
+      "icon": "Sparkles",
+      "features": ["Employer brand strategy", "Careers site & content", "Social & talent campaigns", "Candidate experience audit", "Glassdoor & review management"]
+    },
+    {
+      "id": "global-recruitment",
+      "title": "Global Recruitment",
+      "short": "Connecting organizations with international talent.",
+      "description": "Talent knows no borders. With consultants in 12 offices across 4 continents, we run cross-border searches, manage relocation and immigration, and build diverse international teams for organisations expanding into new markets.",
+      "icon": "Globe2",
+      "features": ["Cross-border search", "Relocation & immigration support", "Multi-language screening", "Local market intelligence", "Global talent pool access"]
+    }
+  ],
+  "jobs": [
+    {
+      "id": "senior-software-engineer",
+      "title": "Senior Software Engineer",
+      "company": "Quantum Labs",
+      "companyDesc": "Quantum Labs builds developer-first infrastructure used by thousands of engineering teams worldwide. We are a Series C company backed by top-tier investors, with a remote-first culture and a commitment to open source.",
+      "location": "New York, NY (Hybrid)",
+      "locationType": "Hybrid",
+      "salary": "$150,000 – $190,000",
+      "type": "Full-time",
+      "level": "Senior",
+      "industry": "Technology",
+      "posted": "2 days ago",
+      "postedDate": "2025-08-22",
+      "about": "We are looking for a Senior Software Engineer to join our platform team. You will design and build the core services that power our developer infrastructure, working across distributed systems, APIs and developer tooling.",
+      "responsibilities": ["Design and build scalable backend services in Go and Python", "Own end-to-end delivery of features from design to production", "Mentor mid-level engineers and lead code reviews", "Collaborate with product and design on roadmap planning", "Improve system reliability, observability and performance"],
+      "requirements": ["5+ years of backend software engineering experience", "Strong proficiency in Go, Python or equivalent", "Experience with distributed systems and cloud platforms (AWS/GCP)", "Solid understanding of API design and microservices architecture", "Excellent communication and collaboration skills"],
+      "benefits": ["Competitive salary and equity", "Remote-first with flexible hours", "Comprehensive health, dental and vision coverage", "Annual learning and development budget", "Home office stipend"]
+    },
+    {
+      "id": "marketing-manager",
+      "title": "Marketing Manager",
+      "company": "Cedar Financial",
+      "companyDesc": "Cedar Financial is a fast-growing wealth management firm serving high-net-worth clients across North America. We combine data-driven strategy with a human approach to financial planning.",
+      "location": "Boston, MA",
+      "locationType": "On-site",
+      "salary": "$110,000 – $140,000",
+      "type": "Full-time",
+      "level": "Mid-Senior",
+      "industry": "Finance",
+      "posted": "4 days ago",
+      "postedDate": "2025-08-20",
+      "about": "We are seeking a Marketing Manager to lead our growth marketing efforts. You will own campaigns across digital, content and events, driving brand awareness and qualified leads for our advisory team.",
+      "responsibilities": ["Develop and execute integrated marketing campaigns", "Manage digital advertising across Google, LinkedIn and Meta", "Produce content including blog posts, webinars and client stories", "Analyse campaign performance and report on ROI", "Collaborate with sales on lead nurturing and conversion"],
+      "requirements": ["4+ years of B2C or B2B marketing experience", "Proven track record managing paid digital campaigns", "Strong copywriting and content creation skills", "Experience with HubSpot or equivalent marketing automation", "Data-driven mindset with comfort in analytics tools"],
+      "benefits": ["Base salary plus performance bonus", "Health, dental and vision insurance", "401(k) with company match", "Generous PTO and paid holidays", "Professional development budget"]
+    },
+    {
+      "id": "hr-business-partner",
+      "title": "HR Business Partner",
+      "company": "Lumen Health",
+      "companyDesc": "Lumen Health operates a network of outpatient clinics and telehealth services, serving over 200,000 patients annually. Our mission is to make quality healthcare accessible and affordable.",
+      "location": "Chicago, IL (Remote)",
+      "locationType": "Remote",
+      "salary": "$95,000 – $120,000",
+      "type": "Full-time",
+      "level": "Mid-Senior",
+      "industry": "Healthcare",
+      "posted": "1 week ago",
+      "postedDate": "2025-08-17",
+      "about": "We are looking for an HR Business Partner to support our clinical operations team. You will be a strategic partner to leadership on talent management, employee relations and organisational development.",
+      "responsibilities": ["Partner with clinical leadership on workforce planning", "Lead employee relations and conflict resolution", "Drive performance management and talent reviews", "Support diversity, equity and inclusion initiatives", "Advise on HR policy and compliance"],
+      "requirements": ["5+ years of HR business partner experience", "SHRM-SCP or PHR certification preferred", "Experience in healthcare or regulated industry a plus", "Strong coaching and conflict resolution skills", "Knowledge of employment law and HR best practices"],
+      "benefits": ["Remote-first work environment", "Comprehensive benefits including medical, dental, vision", "401(k) with 4% match", "Annual wellness stipend", "Tuition reimbursement"]
+    },
+    {
+      "id": "financial-analyst",
+      "title": "Financial Analyst",
+      "company": "Vertex Capital",
+      "companyDesc": "Vertex Capital is a leading private equity firm with $4B+ assets under management. We invest in mid-market technology and healthcare companies across North America and Europe.",
+      "location": "New York, NY",
+      "locationType": "On-site",
+      "salary": "$85,000 – $110,000",
+      "type": "Full-time",
+      "level": "Mid",
+      "industry": "Finance",
+      "posted": "3 days ago",
+      "postedDate": "2025-08-21",
+      "about": "We are hiring a Financial Analyst to join our deal team. You will support investment analysis, financial modelling and due diligence for potential portfolio company acquisitions.",
+      "responsibilities": ["Build and maintain complex financial models", "Conduct market and industry research", "Support due diligence on potential investments", "Prepare investment memos and presentations", "Monitor portfolio company performance"],
+      "requirements": ["2-4 years of investment banking, PE or consulting experience", "Advanced Excel and financial modelling skills", "Bachelor's degree in Finance, Economics or related field", "Strong analytical and presentation skills", "CFA candidacy a plus"],
+      "benefits": ["Competitive base plus performance bonus", "Comprehensive health benefits", "401(k) with company match", "Commuter benefits", "Mentorship and career progression path"]
+    },
+    {
+      "id": "product-designer",
+      "title": "Product Designer",
+      "company": "Helix Tech",
+      "companyDesc": "Helix Tech builds collaboration software used by over 50,000 teams. We are a design-led company that believes great products start with deep user understanding.",
+      "location": "San Francisco, CA (Hybrid)",
+      "locationType": "Hybrid",
+      "salary": "$130,000 – $165,000",
+      "type": "Full-time",
+      "level": "Mid-Senior",
+      "industry": "Technology",
+      "posted": "5 days ago",
+      "postedDate": "2025-08-19",
+      "about": "We are looking for a Product Designer to own end-to-end design for core features. You will work closely with product managers and engineers to ship intuitive, beautiful experiences.",
+      "responsibilities": ["Lead design for key product areas from research to delivery", "Create wireframes, prototypes and high-fidelity UI", "Conduct user research and usability testing", "Maintain and evolve the design system", "Collaborate cross-functionally to ship quality work"],
+      "requirements": ["4+ years of product design experience", "Strong portfolio of shipped product work", "Proficiency in Figma and prototyping tools", "Experience with design systems", "User-centric mindset with research skills"],
+      "benefits": ["Competitive salary and equity", "Flexible hybrid work", "Top-tier health benefits", "Design conference budget", "Ergonomic home office setup"]
+    },
+    {
+      "id": "project-manager",
+      "title": "Project Manager",
+      "company": "Pinnacle Engineering",
+      "companyDesc": "Pinnacle Engineering delivers large-scale infrastructure projects across transportation, energy and water. We are known for safety, quality and on-time delivery.",
+      "location": "Houston, TX",
+      "locationType": "On-site",
+      "salary": "$100,000 – $130,000",
+      "type": "Full-time",
+      "level": "Mid-Senior",
+      "industry": "Engineering",
+      "posted": "1 week ago",
+      "postedDate": "2025-08-17",
+      "about": "We are hiring a Project Manager to lead infrastructure projects from initiation to handover. You will manage budgets, schedules and cross-functional teams to deliver complex engineering work.",
+      "responsibilities": ["Manage project scope, schedule and budget", "Coordinate engineering, procurement and construction teams", "Maintain stakeholder and client communication", "Ensure safety and quality compliance", "Report on project progress and risks"],
+      "requirements": ["5+ years of project management in construction or engineering", "PMP or PRINCE2 certification", "Experience managing budgets over $10M", "Strong leadership and communication skills", "Proficiency in project management software"],
+      "benefits": ["Competitive salary and project bonuses", "Vehicle allowance", "Comprehensive health benefits", "401(k) with company match", "Paid certifications and training"]
+    }
+  ],
+  "industries": [
+    { "id": "technology", "name": "Technology", "description": "Software, infrastructure, AI and data talent for high-growth and enterprise teams.", "image": "https://images.pexels.com/photos/38984817/pexels-photo-38984817.jpeg?auto=compress&cs=tinysrgb&w=800", "imageAlt": "Technology workspace with data charts on multiple screens", "roles": 320 },
+    { "id": "finance", "name": "Finance", "description": "Banking, asset management, private equity and fintech professionals.", "image": "https://images.pexels.com/photos/5831264/pexels-photo-5831264.jpeg?auto=compress&cs=tinysrgb&w=800", "imageAlt": "Trader analyzing financial data on multiple monitors", "roles": 180 },
+    { "id": "healthcare", "name": "Healthcare", "description": "Clinical, administrative and digital health talent for providers and payers.", "image": "https://images.pexels.com/photos/6234976/pexels-photo-6234976.jpeg?auto=compress&cs=tinysrgb&w=800", "imageAlt": "Healthcare professional operating medical equipment", "roles": 240 },
+    { "id": "engineering", "name": "Engineering", "description": "Civil, mechanical, electrical and project engineering across infrastructure.", "image": "https://images.pexels.com/photos/8297846/pexels-photo-8297846.jpeg?auto=compress&cs=tinysrgb&w=800", "imageAlt": "Modern office workspace with cityscape view", "roles": 150 },
+    { "id": "marketing", "name": "Marketing", "description": "Brand, digital, content and growth marketing specialists.", "image": "https://images.pexels.com/photos/1181563/pexels-photo-1181563.jpeg?auto=compress&cs=tinysrgb&w=800", "imageAlt": "Two professionals collaborating at a desk with a laptop", "roles": 130 },
+    { "id": "retail", "name": "Retail", "description": "Merchandising, operations, e-commerce and store leadership talent.", "image": "https://images.pexels.com/photos/7693201/pexels-photo-7693201.jpeg?auto=compress&cs=tinysrgb&w=800", "imageAlt": "Charts and smartphone displaying data analytics", "roles": 95 },
+    { "id": "legal", "name": "Legal", "description": "In-house counsel, compliance and legal operations professionals.", "image": "https://images.pexels.com/photos/7433919/pexels-photo-7433919.jpeg?auto=compress&cs=tinysrgb&w=800", "imageAlt": "Professionals signing documents in a business meeting", "roles": 70 },
+    { "id": "construction", "name": "Construction", "description": "Project management, site leadership and skilled trades.", "image": "https://images.pexels.com/photos/5444186/pexels-photo-5444186.jpeg?auto=compress&cs=tinysrgb&w=800", "imageAlt": "Modern open-plan office interior", "roles": 110 },
+    { "id": "logistics", "name": "Logistics", "description": "Supply chain, warehousing, fleet and operations management.", "image": "https://images.pexels.com/photos/7691761/pexels-photo-7691761.jpeg?auto=compress&cs=tinysrgb&w=800", "imageAlt": "Business professional tracking logistics data on a laptop", "roles": 85 },
+    { "id": "hospitality", "name": "Hospitality", "description": "Hotel management, F&B, events and guest experience leaders.", "image": "https://images.pexels.com/photos/36631701/pexels-photo-36631701.jpeg?auto=compress&cs=tinysrgb&w=800", "imageAlt": "Bright spacious office interior with modern furniture", "roles": 60 }
+  ],
+  "team": [
+    { "name": "Eleanor Vance", "role": "Founder & CEO", "specialization": "Executive Search", "image": "https://images.pexels.com/photos/23496903/pexels-photo-23496903.jpeg?auto=compress&cs=tinysrgb&w=600", "imageAlt": "Portrait of Eleanor Vance, confident businesswoman in a corporate office", "linkedin": "#" },
+    { "name": "Marcus Chen", "role": "Managing Director, Technology", "specialization": "Technology Recruitment", "image": "https://images.pexels.com/photos/8937582/pexels-photo-8937582.jpeg?auto=compress&cs=tinysrgb&w=600", "imageAlt": "Portrait of Marcus Chen, businessman in a blue suit in a modern office", "linkedin": "#" },
+    { "name": "Priya Sharma", "role": "Director, Finance Practice", "specialization": "Financial Services", "image": "https://images.pexels.com/photos/3894379/pexels-photo-3894379.jpeg?auto=compress&cs=tinysrgb&w=600", "imageAlt": "Portrait of Priya Sharma, smiling businesswoman in a blue outfit", "linkedin": "#" },
+    { "name": "James Okonkwo", "role": "Head of Executive Search", "specialization": "C-Suite Recruitment", "image": "https://images.pexels.com/photos/37605831/pexels-photo-37605831.jpeg?auto=compress&cs=tinysrgb&w=600", "imageAlt": "Portrait of James Okonkwo, businessman in a black suit", "linkedin": "#" },
+    { "name": "Sofia Martinez", "role": "Director, EMEA", "specialization": "Global Recruitment", "image": "https://images.pexels.com/photos/8154425/pexels-photo-8154425.jpeg?auto=compress&cs=tinysrgb&w=600", "imageAlt": "Portrait of Sofia Martinez, professional woman wearing a hijab in an office", "linkedin": "#" },
+    { "name": "David Kim", "role": "Head of Talent Consulting", "specialization": "Workforce Strategy", "image": "https://images.pexels.com/photos/4965009/pexels-photo-4965009.jpeg?auto=compress&cs=tinysrgb&w=600", "imageAlt": "Portrait of David Kim, confident young man in a suit with crossed arms", "linkedin": "#" },
+    { "name": "Amara Osei", "role": "Director, Healthcare", "specialization": "Healthcare Recruitment", "image": "https://images.pexels.com/photos/29852895/pexels-photo-29852895.jpeg?auto=compress&cs=tinysrgb&w=600", "imageAlt": "Portrait of Amara Osei, confident businesswoman in a black suit", "linkedin": "#" },
+    { "name": "Thomas Wright", "role": "Head of Contract Staffing", "specialization": "Interim & Contract", "image": "https://images.pexels.com/photos/30692588/pexels-photo-30692588.jpeg?auto=compress&cs=tinysrgb&w=600", "imageAlt": "Portrait of Thomas Wright, distinguished businessman in a suit", "linkedin": "#" }
+  ],
+  "successStories": [
+    {
+      "id": "engineering-leadership",
+      "title": "How Nexora helped a growing technology company build its engineering leadership team",
+      "company": "Quantum Labs",
+      "industry": "Technology",
+      "challenge": "A Series B technology company needed to hire a VP of Engineering and four engineering managers within six months to support rapid product expansion. Previous attempts with other agencies had produced mismatched candidates and slow timelines.",
+      "strategy": "We ran a retained executive search with dedicated market mapping across 40 target companies, combining behavioural interviewing with technical assessment panels and culture-fit sessions led by the founder.",
+      "result": "All five leadership roles filled within five months, with a 100% retention rate at the 18-month mark. The new leadership team scaled engineering headcount from 30 to 90 within a year.",
+      "stats": [
+        { "label": "Leadership roles filled", "value": 5, "suffix": "" },
+        { "label": "Time to hire", "value": 5, "suffix": " months" },
+        { "label": "Retention at 18 months", "value": 100, "suffix": "%" }
+      ],
+      "image": "https://images.pexels.com/photos/8101931/pexels-photo-8101931.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "imageAlt": "Team of professionals in a modern office meeting"
+    },
+    {
+      "id": "healthcare-scaling",
+      "title": "Scaling a clinical workforce for a telehealth provider expanding into 12 new states",
+      "company": "Lumen Health",
+      "industry": "Healthcare",
+      "challenge": "A telehealth company expanding into 12 new states needed to hire 80 licensed clinicians and 20 care coordinators within four months while maintaining strict licensing and compliance requirements.",
+      "strategy": "We deployed a dedicated RPO team, built state-specific candidate pipelines, managed licensing verification, and ran coordinated interview days to accelerate decision-making.",
+      "result": "102 hires completed in 14 weeks, with full licensing compliance. Time-to-fill reduced by 40% compared to their internal recruitment, and a 95% offer-acceptance rate.",
+      "stats": [
+        { "label": "Total hires", "value": 102, "suffix": "" },
+        { "label": "Time to fill reduction", "value": 40, "suffix": "%" },
+        { "label": "Offer acceptance", "value": 95, "suffix": "%" }
+      ],
+      "image": "https://images.pexels.com/photos/7644014/pexels-photo-7644014.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "imageAlt": "Business professionals in a team meeting in a modern office"
+    },
+    {
+      "id": "finance-transformation",
+      "title": "Building a finance transformation team for a private equity portfolio company",
+      "company": "Vertex Capital",
+      "industry": "Finance",
+      "challenge": "A newly acquired portfolio company needed a CFO, two VP-level controllers and a financial planning team to lead a finance transformation and prepare for an eventual exit.",
+      "strategy": "We combined executive search for the CFO with a volume recruitment campaign for the FP&A team, using psychometric assessment and PE-experience screening to ensure cultural fit with the sponsor.",
+      "result": "CFO placed in 8 weeks; full finance team of 9 in place within 4 months. The transformation enabled a successful exit 20 months later at a 3x multiple.",
+      "stats": [
+        { "label": "Finance team hired", "value": 9, "suffix": "" },
+        { "label": "CFO time to hire", "value": 8, "suffix": " weeks" },
+        { "label": "Exit multiple", "value": 3, "suffix": "x" }
+      ],
+      "image": "https://images.pexels.com/photos/7691759/pexels-photo-7691759.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "imageAlt": "Professionals discussing financial data with charts"
+    }
+  ],
+  "blog": [
+    {
+      "id": "1",
+      "category": "Career Advice",
+      "title": "How to negotiate your salary without burning bridges",
+      "excerpt": "Salary negotiation is one of the most important — and most uncomfortable — conversations in a job search. Here is a framework for doing it with confidence and professionalism.",
+      "image": "https://images.pexels.com/photos/1181563/pexels-photo-1181563.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "imageAlt": "Two professionals discussing work with a laptop",
+      "date": "2025-08-18",
+      "readTime": "6 min read",
+      "content": "Salary negotiation is a skill, not a gamble. The key is preparation: know your market value, understand the full compensation package, and frame the conversation around mutual value rather than personal need. Start by researching comparable roles using salary surveys and market data. When the offer arrives, express enthusiasm first, then ask thoughtful questions about the package. Anchor on data, not emotion. And remember — the best negotiations leave both sides feeling respected and excited to work together."
+    },
+    {
+      "id": "2",
+      "category": "Interview Tips",
+      "title": "The STAR method: structure your answers for behavioural interviews",
+      "excerpt": "Behavioural interviews ask you to describe past situations. The STAR method gives you a clear structure to answer concisely and powerfully every time.",
+      "image": "https://images.pexels.com/photos/5439153/pexels-photo-5439153.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "imageAlt": "Successful job interview handshake in an office",
+      "date": "2025-08-15",
+      "readTime": "5 min read",
+      "content": "The STAR method — Situation, Task, Action, Result — is the most reliable framework for answering behavioural interview questions. Start by briefly setting the scene (Situation), explain what you were responsible for (Task), describe what you specifically did (Action), and finish with the measurable outcome (Result). Prepare 5-7 versatile stories in advance, practice them aloud, and always quantify your results. The goal is to show, not tell, how you think and work."
+    },
+    {
+      "id": "3",
+      "category": "Hiring Strategy",
+      "title": "5 signs your hiring process is costing you great candidates",
+      "excerpt": "Top talent doesn't stay on the market long. If your process has any of these five warning signs, you may be losing your best candidates before you even make an offer.",
+      "image": "https://images.pexels.com/photos/7433851/pexels-photo-7433851.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "imageAlt": "Colleagues discussing documents in a corporate meeting",
+      "date": "2025-08-12",
+      "readTime": "7 min read",
+      "content": "The best candidates are off the market in 10 days. If your hiring process takes longer, you are losing. Five red flags: overly long interview rounds, lack of communication between stages, no flexibility on interview scheduling, vague job descriptions, and slow feedback after interviews. Fix these and you will see higher offer-acceptance rates and a stronger employer brand."
+    },
+    {
+      "id": "4",
+      "category": "Workplace Trends",
+      "title": "The rise of the hybrid workforce: what it means for hiring in 2025",
+      "excerpt": "Hybrid work is no longer a perk — it is an expectation. Here is how leading companies are structuring hybrid policies and what it means for your hiring strategy.",
+      "image": "https://images.pexels.com/photos/8297846/pexels-photo-8297846.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "imageAlt": "Open office with colorful dividers and cityscape view",
+      "date": "2025-08-08",
+      "readTime": "8 min read",
+      "content": "Hybrid work has become the default for knowledge workers. The companies winning the talent war are those offering flexibility with intentionality — clear in-office days for collaboration, remote days for deep work, and investment in digital collaboration tools. Hiring strategies must now compete on flexibility, not just compensation."
+    },
+    {
+      "id": "5",
+      "category": "Leadership",
+      "title": "What makes a great CTO? Lessons from 50 executive searches",
+      "excerpt": "After 50 CTO searches, we have noticed patterns in what separates the good from the great. It is rarely about technology — it is about people and judgment.",
+      "image": "https://images.pexels.com/photos/36733313/pexels-photo-36733313.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "imageAlt": "Professionals discussing charts during a business meeting",
+      "date": "2025-08-05",
+      "readTime": "9 min read",
+      "content": "Great CTOs are not the strongest individual technologists — they are leaders who can translate business strategy into technical vision, build and retain world-class teams, and make sound judgment calls under uncertainty. In our executive searches, the candidates who succeed are those who demonstrate commercial acumen, people leadership and a learning mindset, not just technical depth."
+    },
+    {
+      "id": "6",
+      "category": "Recruitment Insights",
+      "title": "Why employer branding is your cheapest source of great talent",
+      "excerpt": "Companies with strong employer brands see 50% lower cost-per-hire and 28% lower turnover. Here is how to build one without a massive budget.",
+      "image": "https://images.pexels.com/photos/9034230/pexels-photo-9034230.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "imageAlt": "Diverse group of professionals in a boardroom meeting",
+      "date": "2025-08-01",
+      "readTime": "6 min read",
+      "content": "Employer branding is not a marketing exercise — it is a talent strategy. Start by asking your current employees what they love about working there, then tell those stories authentically across your careers site, social channels and candidate communications. Authenticity outperforms polish. Companies with strong employer brands reduce cost-per-hire by up to 50% and improve retention by 28%."
+    }
+  ],
+  "blogCategories": ["Career Advice", "Interview Tips", "Hiring Strategy", "Workplace Trends", "Leadership", "Recruitment Insights"],
+  "values": [
+    { "icon": "Target", "title": "Precision", "text": "We treat every search as unique. Deep market mapping and rigorous assessment mean we present the right people, not just available people." },
+    { "icon": "HeartHandshake", "title": "Partnership", "text": "We invest in long-term relationships, not transactions. Many of our clients have worked with us for over a decade." },
+    { "icon": "Eye", "title": "Transparency", "text": "Honest feedback, clear pricing and open communication at every stage. No surprises, no spin." },
+    { "icon": "Globe2", "title": "Global Reach", "text": "With consultants across 12 offices and 4 continents, we find talent wherever it lives." }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "business": {
+    "name": "FixPoint Garage",
+    "tagline": "Honest. Skilled. Right the first time.",
+    "description": "A family-run automotive repair workshop trusted by thousands of local drivers. Our certified mechanics handle everything from routine oil changes to complex engine rebuilds — with transparent pricing and a workmanship guarantee on every job.",
+    "phone": "+1 (512) 555-0142",
+    "phoneHref": "tel:+15125550142",
+    "whatsapp": "+1 (512) 555-0142",
+    "whatsappHref": "https://wa.me/15125550142",
+    "email": "service@fixpointgarage.com",
+    "emailHref": "mailto:service@fixpointgarage.com",
+    "address": "248 Maple Street, Austin, TX 78704",
+    "mapsQuery": "248+Maple+Street,+Austin,+TX+78704",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=248+Maple+Street+Austin+TX+78704",
+    "mapsEmbed": "https://www.google.com/maps?q=248+Maple+Street,+Austin,+TX+78704&output=embed",
+    "hours": [
+      { "day": "Mon – Fri", "time": "7:30 AM – 6:00 PM" },
+      { "day": "Saturday", "time": "8:00 AM – 4:00 PM" },
+      { "day": "Sunday", "time": "Closed" }
+    ],
+    "social": {
+      "facebook": "https://facebook.com",
+      "instagram": "https://instagram.com",
+      "twitter": "https://twitter.com",
+      "youtube": "https://youtube.com"
+    },
+    "founded": 2009,
+    "stats": [
+      { "label": "Years in business", "value": "16+" },
+      { "label": "Cars serviced", "value": "24,000+" },
+      { "label": "Certified mechanics", "value": "8" },
+      { "label": "Customer rating", "value": "4.9" }
+    ]
+  },
+  "images": {
+    "hero": "https://images.pexels.com/photos/3807277/pexels-photo-3807277.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroAlt": "Mechanic inspecting a car engine with a flashlight inside the FixPoint workshop",
+    "aboutMain": "https://images.pexels.com/photos/8985458/pexels-photo-8985458.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "aboutMainAlt": "Professional mechanic working under the open hood of a car in a clean modern workshop",
+    "aboutStory": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "aboutStoryAlt": "Mechanic checking a car engine in a bright garage, ensuring quality maintenance",
+    "workshop1": "https://images.pexels.com/photos/8986130/pexels-photo-8986130.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "workshop1Alt": "Modern automotive repair shop with a car elevated on a hydraulic lift",
+    "workshop2": "https://images.pexels.com/photos/33814736/pexels-photo-33814736.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "workshop2Alt": "Well-lit garage interior with a car on a hydraulic lift ready for repair",
+    "workshop3": "https://images.pexels.com/photos/4116171/pexels-photo-4116171.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "workshop3Alt": "Organized workbench in the FixPoint garage with tools and maintenance products",
+    "ctaBg": "https://images.pexels.com/photos/8985456/pexels-photo-8985456.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "ctaAlt": "Mechanic inspecting a car engine in a well-equipped auto repair shop"
+  },
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about" },
+    { "label": "Services", "href": "/services" },
+    { "label": "Team", "href": "/team" },
+    { "label": "Pricing", "href": "/pricing" },
+    { "label": "Reviews", "href": "/testimonials" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "services": [
+    {
+      "slug": "engine-repair",
+      "title": "Engine Repair",
+      "short": "Diagnostics, tune-ups, timing belts and full engine rebuilds.",
+      "description": "From misfires to complete overhauls, our engine specialists restore performance and fuel efficiency using factory-grade diagnostic equipment.",
+      "image": "https://images.pexels.com/photos/8985664/pexels-photo-8985664.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "imageAlt": "Mechanic repairing a car engine in a garage setting",
+      "icon": "Cog",
+      "priceFrom": 180,
+      "features": [
+        "Computerised engine diagnostics",
+        "Timing belt & chain replacement",
+        "Cylinder head & gasket repair",
+        "Complete engine rebuilds",
+        "Performance tuning & optimisation"
+      ],
+      "duration": "2–8 hours"
+    },
+    {
+      "slug": "brake-repair",
+      "title": "Brake Repair",
+      "short": "Pads, discs, callipers and full brake system servicing.",
+      "description": "Your safety depends on your brakes. We inspect, repair and replace every component to manufacturer specifications with same-day service on most vehicles.",
+      "image": "https://images.pexels.com/photos/6870307/pexels-photo-6870307.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "imageAlt": "Mechanic in blue uniform performing brake repair on a car",
+      "icon": "Disc3",
+      "priceFrom": 120,
+      "features": [
+        "Brake pad & disc replacement",
+        "Calliper servicing",
+        "Brake fluid flush",
+        "ABS diagnostics",
+        "Handbrake adjustment"
+      ],
+      "duration": "1–3 hours"
+    },
+    {
+      "slug": "oil-change",
+      "title": "Oil & Filter Service",
+      "short": "Full oil, filter and fluid top-up with every visit.",
+      "description": "Regular oil changes are the cheapest insurance for your engine. Our 30-minute service keeps your warranty intact and your engine protected.",
+      "image": "https://images.pexels.com/photos/36281957/pexels-photo-36281957.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "imageAlt": "Mechanic inspecting and filling engine oil in a car at a service centre",
+      "icon": "Droplet",
+      "priceFrom": 49,
+      "features": [
+        "Full synthetic & conventional oil",
+        "Oil filter replacement",
+        "Fluid level top-up",
+        "Multi-point visual inspection",
+        "Battery & tyre pressure check"
+      ],
+      "duration": "30–45 mins"
+    },
+    {
+      "slug": "car-ac-service",
+      "title": "Car AC Service",
+      "short": "Recharging, leak detection and full climate control repair.",
+      "description": "Stay cool all year. We recharge refrigerant, repair leaks and service compressors so your cabin reaches the right temperature fast.",
+      "image": "https://images.pexels.com/photos/8985662/pexels-photo-8985662.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "imageAlt": "Mechanic conducting a vehicle inspection in an automotive garage",
+      "icon": "Snowflake",
+      "priceFrom": 95,
+      "features": [
+        "Refrigerant recharge",
+        "Leak detection & repair",
+        "Compressor servicing",
+        "Cabin filter replacement",
+        "Climate control diagnostics"
+      ],
+      "duration": "1–2 hours"
+    },
+    {
+      "slug": "battery-service",
+      "title": "Battery & Electrical",
+      "short": "Testing, replacement and full charging system diagnostics.",
+      "description": "A dead battery ruins your day. We test your battery, alternator and starter, then fit a guaranteed replacement if needed — usually within the hour.",
+      "image": "https://images.pexels.com/photos/8478228/pexels-photo-8478228.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "imageAlt": "Mechanic inspecting car engine bay and battery during routine maintenance",
+      "icon": "BatteryCharging",
+      "priceFrom": 75,
+      "features": [
+        "Battery load testing",
+        "Replacement battery fitting",
+        "Alternator & starter testing",
+        "Charging system repair",
+        "Wiring & fuse diagnostics"
+      ],
+      "duration": "45–90 mins"
+    },
+    {
+      "slug": "tire-service",
+      "title": "Tyre & Wheel Service",
+      "short": "Fitting, balancing, alignment and puncture repair.",
+      "description": "Maximise tyre life and fuel economy. We fit, balance and align your wheels with precision equipment and repair punctures whenever safe.",
+      "image": "https://images.pexels.com/photos/6870331/pexels-photo-6870331.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "imageAlt": "Mechanic in blue coveralls replacing a tyre on a vehicle in a repair shop",
+      "icon": "CircleDot",
+      "priceFrom": 35,
+      "features": [
+        "Tyre fitting & balancing",
+        "Wheel alignment",
+        "Puncture repair",
+        "Tyre pressure monitoring",
+        "Seasonal tyre swap"
+      ],
+      "duration": "45–90 mins"
+    },
+    {
+      "slug": "diagnostics",
+      "title": "Computer Diagnostics",
+      "short": "Advanced OBD-II scanning and fault code analysis.",
+      "description": "A warning light shouldn't be a mystery. Our diagnostic scanners read every module in your vehicle and pinpoint the exact issue — no guesswork.",
+      "image": "https://images.pexels.com/photos/4116193/pexels-photo-4116193.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "imageAlt": "Mechanic using a diagnostic tool inside a car to check for engine issues",
+      "icon": "ScanLine",
+      "priceFrom": 65,
+      "features": [
+        "Full OBD-II system scan",
+        "Fault code interpretation",
+        "Live data analysis",
+        "Module programming",
+        "Written diagnostic report"
+      ],
+      "duration": "30–60 mins"
+    },
+    {
+      "slug": "transmission-service",
+      "title": "Transmission Service",
+      "short": "Gearbox repair, fluid flush and clutch replacement.",
+      "description": "Smooth shifts and reliable power delivery. We service automatic and manual transmissions, including clutch replacement and full gearbox rebuilds.",
+      "image": "https://images.pexels.com/photos/29181492/pexels-photo-29181492.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "imageAlt": "Mechanic using tools to repair a car transmission in an indoor workshop",
+      "icon": "Settings2",
+      "priceFrom": 220,
+      "features": [
+        "Transmission fluid flush",
+        "Clutch replacement",
+        "Gearbox repair & rebuild",
+        "Differential servicing",
+        "Drivetrain diagnostics"
+      ],
+      "duration": "3–7 hours"
+    }
+  ],
+  "team": [
+    {
+      "name": "Marcus Reilly",
+      "role": "Founder & Master Technician",
+      "bio": "22 years under the hood. Marcus opened FixPoint in 2009 after a decade at a main dealership, bringing factory training across European and Japanese makes.",
+      "image": "https://images.pexels.com/photos/8985967/pexels-photo-8985967.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "imageAlt": "Portrait of master mechanic Marcus in blue coveralls inside the workshop",
+      "specialties": ["Engine rebuilds", "Diagnostics", "European vehicles"]
+    },
+    {
+      "name": "Sofia Alvarez",
+      "role": "ASE Certified Mechanic",
+      "bio": "Sofia leads our electrical and diagnostics bay. ASE-certified with a knack for tracking down the fault codes other shops miss.",
+      "image": "https://images.pexels.com/photos/8986105/pexels-photo-8986105.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "imageAlt": "Portrait of certified mechanic Sofia inspecting a car in the repair shop",
+      "specialties": ["Electrical systems", "AC service", "Diagnostics"]
+    },
+    {
+      "name": "Daniel Okafor",
+      "role": "Brake & Suspension Specialist",
+      "bio": "If it rolls or stops, Daniel knows it. A decade of experience in brake, steering and suspension work on everything from city cars to light commercials.",
+      "image": "https://images.pexels.com/photos/37720204/pexels-photo-37720204.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "imageAlt": "Portrait of brake specialist Daniel standing in the garage workshop",
+      "specialties": ["Brakes", "Suspension", "Wheel alignment"]
+    },
+    {
+      "name": "Priya Nair",
+      "role": "Service Advisor",
+      "bio": "Priya is the friendly voice and face of FixPoint. She translates mechanic-speak into plain English and makes sure every visit runs on time.",
+      "image": "https://images.pexels.com/photos/6870326/pexels-photo-6870326.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "imageAlt": "Portrait of service advisor Priya holding a diagnostic tablet in the workshop",
+      "specialties": ["Customer care", "Scheduling", "Estimates"]
+    }
+  ],
+  "pricing": [
+    {
+      "category": "Routine Maintenance",
+      "items": [
+        { "name": "Full synthetic oil change", "price": "$49 – $89", "note": "Up to 5L, filter included" },
+        { "name": "Conventional oil change", "price": "$39 – $59", "note": "Up to 5L, filter included" },
+        { "name": "Tyre rotation & balance", "price": "$35", "note": "All four wheels" },
+        { "name": "Wheel alignment", "price": "$75", "note": "Four-wheel, printout included" },
+        { "name": "AC refrigerant recharge", "price": "$95", "note": "Includes system check" }
+      ]
+    },
+    {
+      "category": "Repairs & Services",
+      "items": [
+        { "name": "Brake pad replacement", "price": "from $120", "note": "Front or rear, pads only" },
+        { "name": "Brake disc & pad set", "price": "from $240", "note": "Per axle" },
+        { "name": "Battery replacement", "price": "from $75", "note": "Plus battery cost" },
+        { "name": "Computer diagnostics", "price": "$65", "note": "Full system scan" },
+        { "name": "Clutch replacement", "price": "from $480", "note": "Parts & labour" }
+      ]
+    },
+    {
+      "category": "Major Work",
+      "items": [
+        { "name": "Timing belt replacement", "price": "from $380", "note": "Most models" },
+        { "name": "Transmission service", "price": "from $220", "note": "Fluid & filter" },
+        { "name": "Engine diagnostics & tune-up", "price": "from $180", "note": "Includes report" },
+        { "name": "Full engine rebuild", "price": "Quote", "note": "Bespoke estimate" },
+        { "name": "Head gasket repair", "price": "Quote", "note": "Bespoke estimate" }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "James Whitfield",
+      "vehicle": "Toyota Camry",
+      "rating": 5,
+      "quote": "Took my Camry in after a breakdown. Marcus diagnosed a failing alternator in twenty minutes and had me back on the road the same afternoon. Fair price, no upsell pressure — exactly what you want from a garage."
+    },
+    {
+      "name": "Aisha Mensah",
+      "vehicle": "Honda Civic",
+      "rating": 5,
+      "quote": "I've been coming to FixPoint for three years. Priya always explains everything clearly and I never feel talked down to as a woman customer. The oil change is quick and the multi-point check gives me real peace of mind."
+    },
+    {
+      "name": "Robert Chen",
+      "vehicle": "VW Golf GTI",
+      "rating": 5,
+      "quote": "Other shops couldn't find an intermittent misfire on my GTI. Sofia plugged in the scanner, found a hairline crack in a coil pack, and fixed it for a fraction of what I expected. These people know their stuff."
+    },
+    {
+      "name": "Maria Santos",
+      "vehicle": "Ford Escape",
+      "rating": 5,
+      "quote": "Booked online, got a reminder text, and the car was ready exactly when promised. The brakes feel like new. Clean waiting area too. This is how a garage should be run."
+    },
+    {
+      "name": "Trevor Holt",
+      "vehicle": "BMW 3 Series",
+      "rating": 5,
+      "quote": "I was nervous about taking a BMW to an independent shop. FixPoint charged half what the dealer quoted for a brake fluid flush and the workmanship was immaculate. I'm not going back to the dealer."
+    },
+    {
+      "name": "Lena Petrova",
+      "vehicle": "Mazda CX-5",
+      "rating": 5,
+      "quote": "The AC in my CX-5 stopped cooling in the middle of summer. They found a leak, recharged it, and replaced a hose all in one visit. Honest pricing and genuinely friendly people."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need an appointment, or can I just drive in?",
+      "answer": "We strongly recommend booking ahead so we can allocate a bay and a technician for you. Same-day appointments are often available — call us or use the online booking form and we'll fit you in as soon as we can."
+    },
+    {
+      "question": "Do you work on all makes and models?",
+      "answer": "Yes. Our technicians are trained across European, Japanese, Korean and domestic vehicles, from city cars to light commercial vans. If you have something unusual, give us a call and we'll confirm."
+    },
+    {
+      "question": "Is your work guaranteed?",
+      "answer": "Every repair we carry out comes with a 12-month / 12,000-mile workmanship guarantee, whichever comes first. Parts carry their own manufacturer warranty on top of that."
+    },
+    {
+      "question": "Can you provide a written estimate before starting work?",
+      "answer": "Always. We inspect your vehicle first, then provide a written, itemised estimate. We never start work or order parts without your explicit approval, so there are no surprise charges."
+    },
+    {
+      "question": "Do you offer a courtesy car or a lift while my car is in?",
+      "answer": "We have a comfortable waiting area with complimentary coffee and Wi-Fi. We can also arrange a local courtesy car or a shuttle within a 5-mile radius — just ask when booking."
+    },
+    {
+      "question": "How often should I get my oil changed?",
+      "answer": "For most modern vehicles every 5,000–7,500 miles or every 6 months, whichever comes first. If you do a lot of short trips or city driving, stick to the shorter interval. We'll send you a reminder when the next one is due."
+    }
+  ]
+}

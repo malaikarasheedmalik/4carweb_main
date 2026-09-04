@@ -1,0 +1,7 @@
+import { z } from 'zod';
+export const contactSchema = z.object({ name: z.string().trim().min(2).max(100), email: z.string().email().max(200), phone: z.string().max(40).optional(), subject: z.string().max(200).optional(), message: z.string().trim().min(5).max(5000) });
+export const loginSchema = z.object({ email: z.string().email(), password: z.string().min(8).max(200) });
+export const contentSchema = z.object({ title: z.string().min(2).max(200), slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/), description: z.string().min(2).max(10000), shortDescription: z.string().max(500).optional(), image: z.string().url().optional().or(z.literal('')), category: z.string().max(100).optional(), client: z.string().max(150).optional(), projectUrl: z.string().url().optional().or(z.literal('')), icon: z.string().max(80).optional(), featured: z.boolean().optional(), published: z.boolean().optional() });
+export const testimonialSchema = z.object({ name: z.string().min(2).max(100), role: z.string().max(100).optional(), company: z.string().max(150).optional(), message: z.string().min(2).max(5000), image: z.string().url().optional().or(z.literal('')), rating: z.number().int().min(1).max(5), published: z.boolean().optional() });
+export function ok(data: unknown, init?: ResponseInit) { return Response.json({ success: true, data }, init); }
+export function fail(error: string, status = 400) { return Response.json({ success: false, error }, { status }); }
